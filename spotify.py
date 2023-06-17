@@ -34,8 +34,8 @@ st.sidebar.header('User Input Features')
 
 # Collects user input features
 def user_input_features():
-    danceability = st.sidebar.slider('danceability', 0.0, 1.0, 0.8, 0.01)
-    energy = st.sidebar.slider('energy', 0.0, 1.0, 0.4, 0.01)
+    danceability = st.sidebar.slider('danceability', 0.0, 1.0, 1.0, 0.01)
+    energy = st.sidebar.slider('energy', 0.0, 1.0, 0.9, 0.01)
     loudness = st.sidebar.slider('loudness', -60.0, 0.0, -22.5, 0.1)
     speechiness = st.sidebar.slider('speechiness', 0.0, 1.0, 0.6, 0.01)
     acousticness = st.sidebar.slider('acousticness', 0.0, 1.0, 0.8, 0.01)
